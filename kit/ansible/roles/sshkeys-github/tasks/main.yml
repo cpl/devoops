@@ -1,0 +1,6 @@
+---
+- name: set auth keys from github
+  authorized_key:
+    user: '{{ ansible_user }}'
+    state: present
+    key: https://github.com/{{ git_username }}.keys

@@ -1,0 +1,3 @@
+[vms]
+devoops-00 ansible_ssh_host=192.168.1.210 ip_addr=192.168.1.210
+devoops-01 ansible_ssh_host=192.168.1.211 ip_addr=192.168.1.211

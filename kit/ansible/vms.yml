@@ -1,0 +1,9 @@
+- hosts: vms
+
+  vars:
+    git_username: cpl
+
+  roles:
+    - role: sshkeys-github
+    - role: docker-setup
+      become: yes
